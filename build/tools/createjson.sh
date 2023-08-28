@@ -155,7 +155,7 @@ else
 		}
 	]
 }' >> $output
-
+cat $output
 	echo 'There is no official support for this device yet'
 	echo 'Consider adding official support by reading the documentation at https://github.com/alphadroid-devices/OTA/blob/alpha-13/README.md'
 fi
